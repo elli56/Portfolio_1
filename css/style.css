@@ -170,7 +170,7 @@ nav a:hover {
 }
 
 .main_screen {
-  background-image: url(../img/page/bg.jpg);
+  background-image: url(../img/page/697539.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -237,4 +237,38 @@ nav a:hover {
   width: 34.29vh;
   height: ;
   width: ;
+}
+
+/* Три свойства в ряд */
+
+.itemList .item {
+  margin-top: 52vh;
+}
+
+.item {
+  width: 18.07vw;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.itemList svg {
+  height: 3.21vh;
+  fill: #fff;
+  margin-bottom: 2.07vh;
+
+}
+.itemList h2 {
+  font-size: 1.43vh;
+  line-height: 1.43vh;
+  font-weight: 600;
+  margin-bottom: 2.36vh;
+  text-align: center;
+}
+
+.itemList p {
+  font-size: 1.2vh;
+  line-height: 1.93vh;
+  font-weight: 400;
+  text-align: center;
 }
