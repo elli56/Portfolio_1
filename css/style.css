@@ -272,3 +272,91 @@ nav a:hover {
   font-weight: 400;
   text-align: center;
 }
+
+/* Дальше следущий блок с работами */
+
+/* Заголовок */
+
+.name {
+  text-align:center;
+  margin-bottom: 4.07vh;
+}
+
+.name h2 {
+  font-size: 1.71vh;
+  line-height: 2.42vh;
+  font-weight: 600;
+  margin-top: 4.14vw;
+}
+.name h3 {
+  font-size: 1.14vh;
+  line-height: 2.42vh;
+  font-weight: 400;
+  margin-top: 1.64vh;
+}
+
+/* сами работы */
+
+.min_height {
+  min-height: 100vh;
+}
+
+.work_item {
+  margin-bottom: 2.5vh;
+  box-shadow: 2px 2px 8px 1px black;
+}
+
+.work_item img {
+  width: 21.71vw;
+  height: 100%;
+}
+
+/* отзывы */
+
+.testimonials {
+
+}
+
+.testimonials .client img {
+  height: 7.14vw;
+  border-radius: 50vw;
+  margin-top: 0.43vw;
+}
+
+.client {
+  width: 18.57vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.testimonials .client p {
+  text-align: center;
+  font-size: 1.43vw;
+  line-height: 1.86vw;
+  font-weight: 400;
+  margin: 2.11vh 0;
+  color: #43b5fd;
+}
+
+.testimonials .client h5 {
+  font-size: 1vw;
+  margin-bottom: 0.5vw;
+}
+
+.testimonials .client a {
+  font-size: 0.7vw;
+  text-decoration: none;
+  display: block;
+  color: #9d9fa5;
+  margin-bottom: 5.78vw;
+}
+
+
+footer {
+  height: 7.71vw;
+  background-color: #262933;
+  font-size: 0.9vw;
+
+}
