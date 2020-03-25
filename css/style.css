@@ -135,7 +135,9 @@ header {
   opacity: 0.97;
   z-index: 100;
 }
-
+header svg {
+  display: none;
+}
 .logo {
   font-size: 2.2vh;
   line-height: 3.1vh;
@@ -360,3 +362,75 @@ footer {
   font-size: 0.9vw;
 
 }
+
+/* адаптация под мобильный скрин */
+
+@media
+    only screen and ( min-device-width: 320px ) and  ( max-device-width: 480px ),
+    only screen and ( max-width: 320px ),
+    only screen and (min-device-width: 768px ) and (max-device-width: 1024px )
+
+  {
+    .container {
+  width: 73vw;
+  margin: 0.2vw 0;
+}
+      header {
+        height: 20vw;
+
+      }
+
+      header svg {
+        display: block;
+
+        height: 8vw;
+        fill: #fff;
+        margin: 3.5vw;
+      }
+      header .soc_bar {
+        display: none;
+      }
+      .navigation {
+        display: none;
+      }
+      .logo p {
+        font-size: 4.5vw;
+
+      }
+      #head {
+        flex-direction: row;
+      }
+
+
+      .main_screen h1 {
+    padding-top: 25vw;
+    font-size: 4vw;
+    line-height: 5.5vw;
+  }
+
+.centerItem {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  height: auto;
+  margin-top: 4.86vh;
+  margin-left: 0;
+  width: 100vw;
+  border: 0px;
+}
+.description h2{
+  font-size: 4vw;
+}
+.description p {
+  font-size: 3.5vw;
+  line-height: 4vw;
+}
+.description a {
+  font-size: 3.5vw;
+  line-height: 4vw;
+  margin:
+}
+
+
+  }
